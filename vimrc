@@ -1,11 +1,11 @@
 call pathogen#runtime_append_all_bundles()
 call pathogen#helptags()
-:set guifont=Anonymous\ Pro\ 14
+set guifont=Anonymous\ Pro:h12
 filetype plugin on
 set ofu=syntaxcomplete#Complete
-:set tabstop=4
-:set expandtab
-:set shiftwidth=4
+set tabstop=4
+set expandtab
+set shiftwidth=4
 colorscheme xoria256
 
 if has("gui_running")
