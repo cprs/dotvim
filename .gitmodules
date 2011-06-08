@@ -16,3 +16,6 @@
 [submodule "bundle/xoria256"]
 	path = bundle/xoria256
 	url = https://github.com/guns/xoria256.vim.git
+[submodule "bundle/rails"]
+	path = bundle/rails
+	url = git://github.com/tpope/vim-rails.git
