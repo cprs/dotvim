@@ -1,7 +1,7 @@
 call pathogen#runtime_append_all_bundles()
 call pathogen#helptags()
 set guifont=Anonymous\ Pro:h12
-filetype plugin on
+filetype plugin indent on
 set ofu=syntaxcomplete#Complete
 set tabstop=4
 set expandtab
