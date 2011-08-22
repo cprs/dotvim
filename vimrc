@@ -8,9 +8,6 @@ call pathogen#helptags()
 "enable syntax highlighting
 syntax on
 
-"nice font
-set guifont=Anonymous\ Pro:h12
-
 filetype plugin indent on
 set ofu=syntaxcomplete#Complete
 set tabstop=4
@@ -19,6 +16,14 @@ set shiftwidth=4
 colorscheme xoria256
 
 if has("gui_running")
+    "nice font
+    if has("win32")
+        set guifont=Anonymous\ Pro:h12
+    else
+        set guifont=Anonymous\ Pro\ 14
+    endif
+
+    "nice colors
     colorscheme solarized
 endif
 
