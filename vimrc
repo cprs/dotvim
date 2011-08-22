@@ -1,6 +1,16 @@
+"stop vim from behaving in a strong vi-compatible way
+set nocompatible
+
+"enable pathogen
 call pathogen#runtime_append_all_bundles()
 call pathogen#helptags()
+
+"enable syntax highlighting
+syntax on
+
+"nice font
 set guifont=Anonymous\ Pro:h12
+
 filetype plugin indent on
 set ofu=syntaxcomplete#Complete
 set tabstop=4
