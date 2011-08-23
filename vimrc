@@ -14,6 +14,12 @@ call pathogen#helptags()
 "enable syntax highlighting
 syntax on
 
+"enable line numbers
+set number
+
+"allow backspacing over autoindent, line breaks and start of insert
+set backspace=indent,eol,start
+
 filetype plugin indent on
 set ofu=syntaxcomplete#Complete
 set tabstop=4
