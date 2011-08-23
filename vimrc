@@ -43,6 +43,11 @@ if has("gui_running")
     colorscheme solarized
 endif
 
+"plantuml
+autocmd BufRead,BufNewFile *_class.txt set filetype=plantuml
+autocmd BufRead,BufNewFile *_sequence.txt set filetype=plantuml
+autocmd BufRead,BufNewFile *_component.txt set filetype=plantuml
+
 "ruby
 autocmd FileType ruby,eruby set omnifunc=rubycomplete#Complete
 autocmd FileType ruby,eruby let g:rubycomplete_buffer_loading = 1
