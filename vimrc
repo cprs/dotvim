@@ -2,6 +2,12 @@
 set nocompatible
 
 "enable pathogen
+" To disable a plugin, add it's bundle name to the following list
+let g:pathogen_disabled = []
+
+" example: disable vimoutliner
+"call add(g:pathogen_disabled, 'vimoutliner')
+
 call pathogen#runtime_append_all_bundles()
 call pathogen#helptags()
 
