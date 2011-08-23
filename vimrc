@@ -36,6 +36,10 @@ if has("gui_running")
     endif
 
     "nice colors
+    let g:solarized_termtrans=1
+    let g:solarized_termcolors=245
+    let g:solarized_contrast="high"
+    let g:solarized_visibility="high"
     colorscheme solarized
 endif
 
