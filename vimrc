@@ -31,6 +31,10 @@ set shiftwidth=4
 colorscheme xoria256
 
 if has("gui_running")
+    if has("win32")
+        au GUIEnter * simalt ~x "maximize window
+    endif
+
     "nice font
     if has("win32")
         set guifont=Anonymous\ Pro:h12
