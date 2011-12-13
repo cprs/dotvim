@@ -48,6 +48,9 @@ if has("gui_running")
     let g:solarized_contrast="high"
     let g:solarized_visibility="high"
     colorscheme solarized
+else
+    "suppress CSApprox warning
+    let g:CSApprox_verbose_level = 0
 endif
 
 "plantuml
