@@ -38,6 +38,8 @@ if has("gui_running")
     "nice font
     if has("win32")
         set guifont=Anonymous\ Pro:h12
+    elseif has("mac")
+        set guifont=Anonymous\ Pro:h14
     else
         set guifont=Anonymous\ Pro\ 14
     endif
